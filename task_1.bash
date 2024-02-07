@@ -2,4 +2,4 @@
 
 path="/bin/ls"
 link= "__ls__"
-ln -s $path $link
+ln -sf $path $link
