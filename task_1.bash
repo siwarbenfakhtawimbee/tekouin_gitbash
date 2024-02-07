@@ -1,5 +1,2 @@
 #!/bin/bash
-
-path="/bin/ls"
-link= "__ls__"
-ln -sf $path $link
+ln -sf "/bin/ls" "__ls__"
